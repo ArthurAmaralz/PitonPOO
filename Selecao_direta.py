@@ -9,5 +9,5 @@ def selecao_direta(lista):
     print(lista)
     return lista
 
-numeros = [55,33,0,900,-432,10,77,2,11]
-selecao_direta(numeros)
+# numeros = [55,33,0,900,-432,10,77,2,11]
+# selecao_direta(numeros)

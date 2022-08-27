@@ -11,9 +11,14 @@ def merge_sort(lista):
 def merge(l_esq, l_dir):
     if not l_dir:
         return l_esq
+
     if not l_esq:
         return l_dir
+
     if l_esq[0] < l_dir[0]:
         return [l_esq[0]] + merge(l_esq[1:], l_dir)
 
     return [l_dir[0]] + merge(l_esq, l_dir[1:])
+
+
+print(merge_sort([1,23,6,89,4,-12,0,55,9,70]))
