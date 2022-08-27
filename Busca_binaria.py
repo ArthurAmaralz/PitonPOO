@@ -15,7 +15,7 @@ def busca_bin(lista, valor):
                 fim -= 1
     return -1
 
-l = [1,2,3,4,5,6,7,8,9,10,11]
+# l = [1,2,3,4,5,6,7,8,9,10,11]
 
-print(busca_bin(l,10))
+# print(busca_bin(l,10))
 
